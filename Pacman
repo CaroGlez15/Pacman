@@ -121,6 +121,7 @@ def move():
                 vector(0, 5),
                 vector(0, -5),
             ]
+            # Los fantasmas buscan a pacman
             if pacman.x > point.x:
                 plan = options[0]
             elif pacman.y > point.y:
